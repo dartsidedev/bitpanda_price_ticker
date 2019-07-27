@@ -1,0 +1,11 @@
+name: bitpanda_price_ticker
+description: Dart client to consume Bitpanda's price ticker API
+version: 0.1.0
+author: Vince Varga <vince.varga@serial.dev>
+homepage: https://github.com/dartsidedev/bitpanda_price_ticker
+issue_tracker: https://github.com/dartsidedev/bitpanda_price_ticker/issues
+documentation: https://pub.dev/documentation/bitpanda_price_ticker
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+dev_dependencies:
+  test: ^1.6.5
