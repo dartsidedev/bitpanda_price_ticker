@@ -1,3 +1,9 @@
+# g.dart files should be published but not version controlled
+lib/**/*.g.dart
+
+# We don't need to version control coverage report
+coverage/
+
 # Miscellaneous
 *.class
 *.log
