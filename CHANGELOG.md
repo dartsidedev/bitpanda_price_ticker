@@ -1,3 +1,7 @@
+## 0.1.2
+
+Fix unpublished `g.dart` files.
+
 ## 0.1.1
 
 🚀 Add initial implementation of the package.
