@@ -2,7 +2,6 @@
 
 ## To do
 
-* [ ] Maybe just remove the whole `built_value` and provide instead a wrapper with enums for cryptos and currencies?
 * [ ] Setup Travis CI
 * [ ] Add Dart web example
 * [ ] Add fancy Flutter example in separate folder: calculate user's wallet value in the selected currency
