@@ -1,6 +1,10 @@
+## 0.1.3
+
+🔧 Fix documentation URL and improve READMEs
+
 ## 0.1.2
 
-Fix unpublished `g.dart` files.
+🔧 Fix unpublished `g.dart` files.
 
 ## 0.1.1
 

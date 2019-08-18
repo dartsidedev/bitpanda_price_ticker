@@ -52,10 +52,14 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Widget buildRow(Map<String, String> rowInfo) {
     const priceStyle = TextStyle(fontFamily: 'monospace');
-    const currencyTitleStyle = TextStyle(fontSize: 18, fontWeight: FontWeight.bold);
+    const currencyTitleStyle =
+        TextStyle(fontSize: 18, fontWeight: FontWeight.bold);
     return ListTile(
       title: Text(rowInfo['crypto'], style: currencyTitleStyle),
-      trailing: Text(rowInfo['usd'], style: priceStyle,),
+      trailing: Text(
+        rowInfo['usd'],
+        style: priceStyle,
+      ),
     );
   }
 
@@ -75,12 +79,11 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: ListView.separated(
-          separatorBuilder: (BuildContext context, int index) => Divider(),
-          itemCount: rowInfos.length,
-          itemBuilder: (context, index) {
-            return buildRow(rowInfos[index]);
-          }
-        ),
+            separatorBuilder: (BuildContext context, int index) => Divider(),
+            itemCount: rowInfos.length,
+            itemBuilder: (context, index) {
+              return buildRow(rowInfos[index]);
+            }),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: loadLatestPrices,

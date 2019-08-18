@@ -1,8 +1,10 @@
-# `bitpanda_price_ticker` Examples
+# Examples
+
+> `bitpanda_price_ticker`
 
 A Dart client to wrap Bitpanda's price ticker API.
 
-You can read more about Bitpanda's public APIs [in the docs](https://support.bitpanda.com/hc/en-us/articles/360000727459-Bitpanda-API-Key-and-price-ticker-API), or see the API this library gives access to [in action, directly in your browser](https://api.bitpanda.com/v1/ticker)
+You can see the source code for the example projects on [GitHub](https://github.com/dartsidedev/bitpanda_price_ticker/tree/master/example)
 
 This is not an official Bitpanda plugin.
 
