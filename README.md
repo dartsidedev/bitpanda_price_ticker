@@ -46,6 +46,11 @@ Future<void> main() async {
 }
 ```
 
+## Examples
+
+### Flutter
+
+![Screenshot of example app: list of cryptocurrencies with their latest price in USD](https://github.com/dartsidedev/bitpanda_price_ticker/raw/master/example/flutter/screenshot.png)
 
 ## Contribute
 

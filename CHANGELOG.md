@@ -1,3 +1,14 @@
+## 0.2.0
+
+🚀 Simplify interfaces.
+
+This version also includes:
+
+* various improvements to READMEs, docs
+* clean examples
+* better unit tests
+* travis CI automated checks
+
 ## 0.1.3
 
 🔧 Fix documentation URL and improve READMEs
