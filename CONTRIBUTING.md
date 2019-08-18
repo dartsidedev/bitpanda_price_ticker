@@ -2,11 +2,11 @@
 
 ## To do
 
-* [ ] Setup Travis CI
-* [ ] Add Dart web example
-* [ ] Add fancy Flutter example in separate folder: calculate user's wallet value in the selected currency
-* [ ] Add fancy Server example in separate folder: CLI accept currencies as command-line arguments and output price
-* [ ] Example folder should not be analyzed.
+* Setup Travis CI
+* Add Dart web example
+* Add fancy Flutter example in separate folder: calculate user's wallet value in the selected currency
+* Add fancy Server example in separate folder: CLI accept currencies as command-line arguments and output price
+* Example folder should not be analyzed.
 
 
 ## Build `.g.dart` files

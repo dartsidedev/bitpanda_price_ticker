@@ -45,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Future<void> loadLatestPrices() async {
     print('fetching prices...');
-    final p = await fetchAsMap(client: Client());
+    final p = await fetch(client: Client());
     print('received info: $p');
     setState(() => prices = p);
   }

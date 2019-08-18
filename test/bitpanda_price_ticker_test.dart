@@ -21,22 +21,14 @@ Client getMockClient(String body) {
 
 void main() {
   group('"fetch" function', () {
-    test('parses response body into $ExchangeRatesMap', () async {
-      final ExchangeRatesMap exchangeRatesMap =
-          await fetch(client: getMockClient(json));
-      expect(exchangeRatesMap.btc.eur, '8548.31');
-    });
-  });
-
-  group('"fetchAsMap" function', () {
     test('parses response body into Map of String-Maps...', () async {
       final Map<String, Map<String, String>> map =
-          await fetchAsMap(client: getMockClient(json));
+          await fetch(client: getMockClient(json));
       expect(map['BTC']['EUR'], '8548.31');
     });
     test('enables fetching yet unsupported cryptos', () async {
       final Map<String, Map<String, String>> map =
-          await fetchAsMap(client: getMockClient(jsonWithUnsupportedCrypto));
+          await fetch(client: getMockClient(jsonWithUnsupportedCrypto));
       expect(map['VINCENT']['EUR'], '8480.30');
     });
   });
