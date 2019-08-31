@@ -1,3 +1,9 @@
+## 0.2.1
+
+💣 Remove docs link to API Reference.
+
+The analysis monster gives -10 points for missing link and it appears that they cannot access the API reference link (Maybe redirects?).
+
 ## 0.2.0
 
 🚀 Simplify interfaces.

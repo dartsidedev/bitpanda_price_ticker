@@ -1,10 +1,9 @@
 name: bitpanda_price_ticker
 description: Dart client to consume Bitpanda's price ticker API. BTC, ETH, PAN (and many more) prices.
-version: 0.2.0
+version: 0.2.1
 author: Vince Varga <vince.varga@serial.dev>
 homepage: https://github.com/dartsidedev/bitpanda_price_ticker
 issue_tracker: https://github.com/dartsidedev/bitpanda_price_ticker/issues
-documentation: https://pub.dev/documentation/bitpanda_price_ticker/latest/
 environment:
   sdk: ">=2.3.0 <3.0.0"
 dependencies:
